@@ -1,0 +1,42 @@
+{
+  "name": "easy-cli-notepad",
+  "version": "4.1.3",
+  "description": "It allows you to manage your tasks. You can add, delete, update and view your tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "task",
+    "manager",
+    "task-manager",
+    "task manager",
+    "task_manager",
+    "taskmanager",
+    "shareTask",
+    "share-task",
+    "notepad",
+    "note-pad",
+    "register",
+    "login",
+    "register-login"
+  ],
+  "author": "Narashimha",
+  "license": "MIT",
+  "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "config": "^3.3.11",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "mongodb-memory-server": "^9.4.0",
+    "mongoose": "^8.4.3",
+    "readline-sync": "^1.4.10",
+    "sinon": "^18.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.5.1"
+  }
+}
